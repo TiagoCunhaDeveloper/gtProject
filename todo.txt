@@ -1,0 +1,26 @@
+# Meu perfil
++ Listar dados
++ Alterar dados ( salvando imagem)
++ Mascara e validacoes (ajax)
+- Solicitar mudança de senha (e-mail)
+
+# Configurações
++ Cadastrar em uma tabela tb_configuracoes (id_config,fk_usuario,tipo_notificacao,status) tudo ativo ou seja status = 1
++ Ajax das notificacoes(desativar e ativar)
+
+# Projetos
+- Cadastro inicial (Etapas - Geral(imagem)/Equipe/Cliente/Escopo/Documentos/Cronograma/Custos/Riscos
+- Listagem inicial
+- Excluir projeto
+
+# Colaboradores
++ Amigos
+- Equipes (modal de edição, sistema de avisos)
++ Adicionar amigo a uma equipe (Adicionar a pessoa na equipe criada (e a pessoa que criou a equipe), selecionar equipes em que a pessoa sera adicionada) - Criar  tb_membro (idMembro,fkUsuario,fkEquipe,perfil,dataDeInclusao)
++ Equipes (Criar equipe pela aba de equipes)
+- Equipes ( Gerenciar equipe - Adicionar membros pela edição)
+
+# Cadastro
+- E-mail confirmação de conta
+- E-mail hash assinatura (caso marcado)
+
